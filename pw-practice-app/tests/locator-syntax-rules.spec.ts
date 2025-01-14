@@ -1,20 +1,20 @@
-import { test } from "@playwright/test";
+import { test } from '@playwright/test';
 
 test.beforeEach(async ({ page }) => {
-  await page.goto("http://localhost:4200/");
-  await page.getByText("Forms").click();
-  await page.getByText("Form Layouts").click();
+  await page.goto('http://localhost:4200/');
+  await page.getByText('Forms').click();
+  await page.getByText('Form Layouts').click();
 });
 
-test("Locator Syntax Rules", async ({ page }) => {
+test('Locator Syntax Rules', async ({ page }) => {
   // by tag name
-  await page.locator("input").first().click();
+  await page.locator('input').first().click();
 
   // by id
-  page.locator("inputEmail1");
+  page.locator('inputEmail1');
 
   // by class
-  page.locator(".shape-rectangle");
+  page.locator('.shape-rectangle');
 
   // by attribute
   page.locator('[type="email"]');

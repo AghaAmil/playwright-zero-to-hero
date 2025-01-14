@@ -1,4 +1,4 @@
-import { test } from "@playwright/test";
+import { test } from '@playwright/test';
 
 // playwright has 4 hooks
 // beforeAll, beforeEach, afterEach, afterAll
@@ -7,34 +7,34 @@ import { test } from "@playwright/test";
 // test.beforeAll(async ({ page }) => {});
 
 test.beforeEach(async ({ page }) => {
-  await page.goto("http://localhost:4200/");
+  await page.goto('http://localhost:4200/');
 });
 
-test.describe("The First Suite", () => {
+test.describe('The First Suite', () => {
   test.beforeEach(async ({ page }) => {
-    await page.getByText("Forms").click();
+    await page.getByText('Forms').click();
   });
 
-  test("The First Test", async ({ page }) => {
-    await page.getByText("Forms Layouts").click();
+  test('The First Test', async ({ page }) => {
+    await page.getByText('Forms Layouts').click();
   });
 
   test('Navigate to "Datapicker" Page', async ({ page }) => {
-    await page.getByText("Datapicker").click();
+    await page.getByText('Datapicker').click();
   });
 });
 
-test.describe("The Second Suite", () => {
+test.describe('The Second Suite', () => {
   test.beforeEach(async ({ page }) => {
-    await page.getByText("Charts").click();
+    await page.getByText('Charts').click();
   });
 
-  test("The First Test", async ({ page }) => {
-    await page.getByText("Chart.js").click();
+  test('The First Test', async ({ page }) => {
+    await page.getByText('Chart.js').click();
   });
 
   test('Navigate to "Echarts" Page', async ({ page }) => {
-    await page.getByText("Echarts").click();
+    await page.getByText('Echarts').click();
   });
 });
 
