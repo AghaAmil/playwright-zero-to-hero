@@ -8,7 +8,7 @@ test.beforeEach(async ({ page }) => {
 
 test('Locating Parent Element', async ({ page }) => {
   await page
-    .locator('nb-card', { hasText: 'Using the Gird' })
+    .locator('nb-card', { hasText: 'Using the Grid' })
     .getByRole('textbox', { name: 'Email' })
     .click();
 
@@ -25,7 +25,7 @@ test('Locating Parent Element', async ({ page }) => {
     .click();
   await page
     .locator('nb-card')
-    .filter({ has: page.locator('.status_danger') })
+    .filter({ has: page.locator('.status-danger') })
     .getByRole('textbox', { name: 'Password' })
     .click();
 
