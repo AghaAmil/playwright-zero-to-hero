@@ -24,7 +24,7 @@ Welcome to the **Playwright: Web Automation Testing From Zero to Hero** reposi
 **Playwright** is a rapidly growing end-to-end testing framework that has gained popularity for its reliability, speed, and cross-browser support. The course and this repository aim to provide a solid foundation for anyone looking to learn web automation using Playwright with JavaScript.
 
 ## Course Overview
-This course, led by Artem, provides **12 hours of detailed and structured content** covering all major aspects of the Playwright framework. It is designed for those who have a fundamental understanding of JavaScript. For newcomers or those switching to JavaScript-based frameworks like Playwright, there is a complementary JavaScript fundamentals module available to build the necessary background.
+This course, led by Artem Bondar, provides **12 hours of detailed and structured content** covering all major aspects of the Playwright framework. It is designed for those who have a fundamental understanding of JavaScript. For newcomers or those switching to JavaScript-based frameworks like Playwright, there is a complementary JavaScript fundamentals module available to build the necessary background.
 
 ## Repository Purpose
 1. **Practice and Learning**
