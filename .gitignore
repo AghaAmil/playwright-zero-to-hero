@@ -1,2 +1,5 @@
 # Obsidian note files
 .obsidian/
+
+# MacOS File
+.DS_Store
